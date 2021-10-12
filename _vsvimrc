@@ -1,0 +1,32 @@
+source ~/vimrc
+
+nnoremap <C-o> :vsc ReSharper.ReSharper_NavigateBackward<CR>
+nnoremap <C-i> :vsc ReSharper.ReSharper_NavigateForward<CR>
+nnoremap pd :vsc ReSharper.ReSharper_PeekDefinition<CR>
+nnoremap gi :vsc ReSharper.ReSharper_GotoImplementations<CR>
+nnoremap pi :vsc ReSharper.ReSharper_PeekImplementations<CR>
+nnoremap gr :vsc Edit.FindAllReferences<CR>
+nnoremap K :vsc Edit.QuickInfo<CR>
+nnoremap <leader>rn :vsc ReSharper.ReSharper_Rename<CR>
+nnoremap <leader>ac :vsc ReSharper_AltEnter<CR>
+nnoremap <leader>or :vsc Edit.RemoveAndSort<CR>
+nnoremap <leader>f :vsc Edit.FormatDocument<CR>
+xnoremap <leader>f :vsc Edit.FormatSelection<CR>
+xnoremap gcc :vsc Edit.ToggleComment<CR>
+nnoremap gcc :vsc Edit.ToggleComment<CR>
+nnoremap <leader>s :vsc File.SaveSelectedItems<CR>
+nnoremap <leader>ds :vsc Debug.StopDebugging<CR>
+nnoremap <leader>dw :vsc Debug.AddWatch<CR>
+nnoremap <leader>dvl :vsc Debug.Locals<CR>
+nnoremap <leader>dva :vsc Debug.Autos<CR>
+nnoremap <leader>dvw :vsc Debug.Watch1<CR>
+nnoremap <leader>di :vsc Debug.StepInto<CR>
+nnoremap <leader>do :vsc Debug.StepOut<CR>
+nnoremap <leader>dv :vsc Debug.StepOver<CR>
+nnoremap <leader>dc :vsc Debug.RunToCursor<CR>
+nnoremap <leader>bt :vsc Debug.ToggleBreakpoint<CR>
+nnoremap <leader>be :vsc Debug.EnableAllBreakpoints<CR>
+nnoremap <leader>bd :vsc Debug.DisableAllBreakpoints<CR>
+
+set relativenumber
+
