@@ -27,6 +27,14 @@ nnoremap <leader>dc :vsc Debug.RunToCursor<CR>
 nnoremap <leader>bt :vsc Debug.ToggleBreakpoint<CR>
 nnoremap <leader>be :vsc Debug.EnableAllBreakpoints<CR>
 nnoremap <leader>bd :vsc Debug.DisableAllBreakpoints<CR>
+nnoremap <space>h :vsc Window.PreviousTab<CR>
+nnoremap <space>l :vsc Window.NextTab<CR>
+nnoremap <c-p> :vsc Edit.GotoFile<CR>
+nnoremap <leader>rf :vsc Edit.GotoRecentFile<CR>
+nnoremap <leader><leader> :vsc Window.NextDocumentWindowNav<CR>
+xnoremap <leader>rem :vsc Resharper.Resharper_ExtractMethod<CR>
+xnoremap <leader>rei :vsc Resharper.Resharper_ExtractInterface<CR>
+xnoremap <leader>rec :vsc Resharper.Resharper_ExtractClass<CR>
 
 set relativenumber
 
